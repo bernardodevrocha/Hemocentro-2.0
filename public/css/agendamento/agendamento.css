@@ -1,0 +1,27 @@
+/*
+Formatação da área dos inputs,
+Formatação das caixas de texto e botões
+*/
+button {
+    width: 327px;
+    height: 40px;
+}
+#area-button {
+    gap: 23px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+}
+
+.input-group-text {
+    flex-direction: column;
+}
+
+.input-group-text input, select {
+    height: 25px;
+}

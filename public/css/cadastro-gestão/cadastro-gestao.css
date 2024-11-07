@@ -1,0 +1,21 @@
+/*
+ESTE ARQUIVO USA NO cadastro.html E NO gestão.html
+*/
+
+button {
+    width: 9.5rem;
+    height: 6rem;
+}
+
+#container  {
+    height: 45%;
+}
+
+#area-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    gap: 5px;
+}

@@ -1,0 +1,43 @@
+button {
+    width: 350px;
+    height: 40px;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+#area-button {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+#input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1.5rem;
+}
+
+.input-group-text {
+    flex-direction: column;
+}
+
+.input-group-text input, select {
+    height: 25px;
+}
+
+#gender-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-input label {
+    margin: 12px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hemoware</title>
+
+        <link rel="stylesheet" type="text/css" href="../public/css/geral-base-estilo-html/all.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/interface-de-botões/interface-de-botoes.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="container">
+                <div id="area-title">
+                    <div id="title">
+                        <h1>Hemoware</h1>
+                    </div>
+                </div>
+
+                <div id="main-button">
+                    <input type="hidden" name="page" value="portal">
+                    <button class="btn" type="submit">
+                        Portal Hospital
+                    </button>
+                </div>
+
+                <div id="buttons-area">
+                    <div class="grid">
+                        <form action="/menu" method="post">
+                            <input type="hidden" name="page" value="cadastro">
+                            <button class="btn" type="submit" value="cadastro">
+                                Cadastro
+                            </button>
+                        </form>
+
+                        <form action="/menu" method="post">
+                            <input type="hidden" name="page" value="gestao">
+                            <button class="btn" type="submit" value="gestao">
+                                Gestão
+                            </button>
+                        </form>
+
+                        <form action="/menu" method="post">
+                            <input type="hidden" name="page" value="relatorios">
+                            <button class="btn" type="submit" value="relatorios">
+                                Relatórios e Análises
+                            </button>
+                        </form>
+
+                        <form action="/menu" method="post">
+                            <input type="hidden" name="page" value="agendamento">
+                            <button class="btn" type="submit" value="agendamento">
+                                Agendamento
+                            </button>
+                        </form>
+                        
+                        <form action="/menu" method="post">
+                            <input type="hidden" name="page" value="pre-triagem">
+                            <button class="btn" type="submit" value="pre-triagem">
+                                Pré-triagem
+                            </button>
+                        </form>
+
+                        <form action="/menu" method="post">
+                            <input type="hidden" name="page" value="bolsas">
+                            <button class="btn" type="submit" value="bolsas">
+                                Bolsas
+                            </button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
